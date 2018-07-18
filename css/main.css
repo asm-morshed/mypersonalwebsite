@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
 #headerContainer{
     
 }
@@ -40,4 +45,15 @@
     height: 100%;
     opacity : 0.4;
     z-index: -1;
+}
+#about{
+    width: 300px;
+    height: 500px;
+    background-color: red;
+}
+#services{
+    width: 300px;
+    height: 500px;
+    background-color: aquamarine;
+
 }
