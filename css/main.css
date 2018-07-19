@@ -17,13 +17,15 @@
     margin-left: 20px;
 }
 #headermenu{
-    float: right;
     margin-top: 10px;
     font-size: 20px;
     margin-right: 20px;
     text-transform: uppercase;
+    position: fixed;
+    left: 850px;
     
 }
+
 
 #headermenu a{
     color:black;
