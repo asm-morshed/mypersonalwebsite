@@ -3,14 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-.clearfix::after{
+
+.clearfix::after {
     content: "";
     display: block;
     clear: both;
-}
-#headerContainer{
-    
-}
+  }
+
 #logo{
     display: inline;
     float: left;
@@ -18,6 +17,7 @@
     margin-left: 20px;
 }
 #headermenu{
+    position: fixed;
     float: right;
     margin-top: 10px;
     font-size: 20px;
@@ -25,6 +25,7 @@
     text-transform: uppercase;
     
 }
+
 #headermenu a{
     color:black;
     margin-right: 20px; 
@@ -34,7 +35,12 @@
     font-weight: bold;
 }
 
-#firstPage:after {
+#firstPage{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+#firstPage::after {
     content : "";
     display: block;
     position: absolute;
