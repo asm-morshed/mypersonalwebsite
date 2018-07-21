@@ -16,7 +16,7 @@
     margin-top: 10px;
     margin-left: 20px;
 }
-#headermenu{
+#navbarmain{
     margin-top: 10px;
     font-size: 20px;
     margin-right: 20px;
@@ -27,12 +27,12 @@
 }
 
 
-#headermenu a{
+#navbarmain a{
     color:black;
     margin-right: 20px; 
     text-decoration:none;
 }
-#headermenu a:hover {
+#navbarmain a:hover {
     font-weight: bold;
 }
 
@@ -64,3 +64,8 @@
     background-color: aquamarine;
 
 }
+
+@media(max-width:568px){
+    .navbarmain{display:none}
+  }
+  
